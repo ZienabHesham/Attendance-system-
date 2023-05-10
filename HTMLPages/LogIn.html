@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Log In</title>
+    <script src="./../jquery-3.1.1.js"></script>
+    <script src="./../Scripts/logIn.js"></script>
+    <link href="./../Styles/logIn.css" rel="styleSheet"/>
+    <script src="https://kit.fontawesome.com/36bcf1b703.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container" >
+
+        <div id="imgContainer">
+            <img src="./../images/img3.webp" >
+        </div>
+        <div id="formContainer">
+            <form action="#">
+                <h1>Log In </h1>
+                <div class="inputContainer">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your Username" required>
+                    <div class="errorMsg"> Invalid Input</div>
+                </div>
+
+                <div class="inputContainer">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your Password" required>
+                    <div class="errorMsg">Invalid Password</div>
+                </div>
+
+                <div class="btnContainer">
+                    <button type="submit">Log In </button>
+                    <button type="reset">Cancel </button>
+                </div>
+                <div class="errorMsg">Invalid user name or password</div>
+                <div id="footer">
+                    <a href="./SignUp.html">Sign up</a> first if you don't have username and password!
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>

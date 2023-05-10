@@ -1,0 +1,8 @@
+#board{
+    height: 50vh;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    justify-content: space-evenly;
+}

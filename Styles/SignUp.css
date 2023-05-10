@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-image: url(./../images/Employee-Management.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+} */
+
+table{
+    border: 2px solid black;
+    width: 60%;
+    height:60vh;
+    margin:20vh auto;
+    border-radius: 1.5rem;
+    padding: 1%;
+}
+
+input[type='text']{
+    height:60%;
+    width:80%;
+    border-radius: 0.3rem;
+}
+
+.discription{
+    color: rgb(46, 27, 155);
+    font-size: 1.2rem;
+    width: 25%;
+}
+#lastTD{
+    text-align: center;
+}
+input[type="submit"],input[type="reset"]{
+    background-color: rgb(200, 194, 227);
+    border: none;
+    width: 25%;
+    height: 60%;
+    margin-left: 5%;
+    border-radius: 0.3rem;
+}
+input[type="submit"],input[type="reset"]:hover{
+    cursor: pointer;
+}
+.errorMsg{  
+    height:70%;
+    padding-top: 3%;
+    text-align: center;
+    border: 2px solid red;
+    font-size: x-small;
+    display: none;
+}

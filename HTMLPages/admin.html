@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Admin</title>
+    <script src="https://kit.fontawesome.com/36bcf1b703.js" crossorigin="anonymous"></script>
+    <script src="./../jquery-3.1.1.js"></script>
+    <link href="./../bootstrap-5.3.0-alpha1-dist/css/bootstrap.css" rel="styleSheet"/>
+   <script src="./../Scripts/adminPage.js"></script>
+    <link href="./../Styles/adminPage.css" rel="styleSheet"/>
+    <link href="./../Styles/adminPortrait.css" rel="stylesheet" media="all and (orientation:portrait)" />
+    
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="welcome">
+                <span><img src="./../images/adminPhoto.webp"/></span>
+                <p>Welcome <span>admin</span><p>
+            </div>
+            <h1>InTime</h1>        
+        </header>
+        <div id="board" class="row my-4">
+            <div class="boardCard col-2 mx-3 ">
+                <button id="requests"class="btn btn-outline-secondary  my-4"><i class="fa-solid fa-user-plus"></i> Pending Requests</button>
+            </div>
+            <div class="boardCard  col-2 mx-3  ">
+                <button id="dailyReports"class="btn btn-outline-secondary my-4"><i class="fa-solid fa-calendar-day"></i> Daily reports</button>
+            </div>
+            <div class="boardCard  col-2 mx-3 ">
+                <button id="monthelyReports"class="btn btn-outline-secondary my-4" ><i class="fa-regular fa-calendar-days"></i>Monthely reports</button>
+            </div>
+            <div class="boardCard col-2  mx-3 ">
+                <button id="search"class="btn btn-outline-secondary my-4"><i class='fa-solid fa-magnifying-glass'></i> Search employee</button>
+            </div>
+            <div class="boardCard col-2  mx-3 ">
+                <button id="EmpData"class="btn btn-outline-secondary my-4"><i class="fa-solid fa-database"></i> Employees Data</button>
+            </div>
+            
+        </div>
+        <div id="display" >
+            <table id="tablee" ></table>
+        </div>
+    </div>   
+    <script src="https://smtpjs.com/v3/smtp.js"></script> 
+</body>
+</html>

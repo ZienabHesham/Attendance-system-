@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Sign Up</title>
+    <script src="./../Scripts/SignUp.js"></script>
+    <link href="./../Styles/SignUp.css" rel="styleSheet"/>
+</head>
+<body>
+    <form action="#" method="get">
+        <table>
+            <tr>
+                <td class="discription" rowspan="2">First name:</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" id="firstName" name="firstName" placeholder="Enter First Name"/>
+                </td>
+                <td class="errorMsg">
+                    First Name should be from 4 to 8 characters
+                </td>
+            </tr>
+
+            <tr>
+                <td class="discription" rowspan="2">Last name:</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" id="lastName" name="lastName" placeholder="Enter Last Name"/>
+                </td>
+                <td class="errorMsg">
+                    Last Name should be from 4 to 8 characters
+                </td>
+            </tr>
+
+            <tr>
+                <td class="discription" rowspan="2">Address:</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" id="address" name="address" placeholder="Enter Address"/>
+                </td>
+                <td class="errorMsg">
+                    Address should be characters
+                </td>
+            </tr>
+
+            <tr>
+                <td class="discription" rowspan="2">Email:</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" id="email" name="email" placeholder="Enter Email"/>
+                </td>
+                <td class="errorMsg">
+                    Email is not valid 
+                </td>
+            </tr>
+
+            <tr>
+                <td class="discription" rowspan="2">Age:</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" id="age" name="age" placeholder="Enter age"/>
+                </td>
+
+                <td class="errorMsg">
+                    Age should be grater than 18 and less than 65 
+                </td>
+            </tr>
+
+            <tr>
+                <td class="discription" rowspan="2">Role:</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <span>Employee</span>
+                    <input type="radio" id="employee" value="employee" name="role" />
+
+                    <span>Security</span>
+                    <input type="radio" id="security" value="security" name="role" />
+                </td>
+
+                <td class="errorMsg">
+                    You should choose you role first.
+                </td>
+            </tr>
+
+            <tr id="lastTR" >
+                <td id="lastTD" colspan="4">
+                    <input type="submit" name="submit" value="Sign Up"/>
+                    <input type="reset" name="cancel" value="Cancel"/>
+
+                </td>
+            </tr>
+
+            <tr >
+                <td class="errorMsg" colspan="4" style="text-align: center;">                   
+                    Submission Error  
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

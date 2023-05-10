@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Attendance</title>
+    <script src="https://kit.fontawesome.com/36bcf1b703.js" crossorigin="anonymous"></script>
+    <script src="./../jquery-3.1.1.js"></script>
+  <script src="./../moment.min.js"></script>
+
+    <!-- <link href="./../bootstrap-5.3.0-alpha1-dist/css/bootstrap.css" rel="styleSheet"/> -->
+   <script src="./../Scripts/attendance.js"></script>
+    <link href="./../Styles/attendance.css" rel="styleSheet"/>
+     
+</head>
+<body>
+    <header>
+        <div id="welcome">
+                <span><img src="./../images/SecurityPhoto.png"/></span>
+                <p>Welcome <span>security</span><p>
+            </div>
+            <h1>Attendance page</h1>        
+    </header>
+    <section id="attendance">
+        <div id="nameWrapper">            
+            <label name="username">User Name:</label>
+            <input type="text" name="username" placeholder="Enter user name"/>
+        </div>
+        <button id="confirmation">Confirm attendance</button>
+    </section>
+    <section id="dataTable">
+
+        <!-- <button id="all">get all data</button> -->
+
+        <table>
+            <tr>
+                <th>User Name</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Arrival</th>
+                <th>Late</th>
+                <th>Leave</th>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>

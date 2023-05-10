@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Employee</title>
+    <script src="https://kit.fontawesome.com/36bcf1b703.js" crossorigin="anonymous"></script>
+    <script src="./../jquery-3.1.1.js"></script>
+
+    <link href="./../bootstrap-5.3.0-alpha1-dist/css/bootstrap.css" rel="styleSheet"/>
+   <script src="./../Scripts/employee.js"></script>
+    <link href="./../Styles/employee.css" rel="styleSheet"/>
+     
+</head>
+<body>
+    <header>
+        <div id="welcome">
+                <span><img src="./../images/employeePhoto.webp"/></span>
+                <p>Welcome <span>Employee</span><p>
+            </div>
+            <h1>Employee reports</h1>        
+    </header>
+
+    <div id="board" class="row my-4">
+        <div class="boardCard  col-sm-2 col-3 ">
+            <button id="profile"class="btn btn-secondary py-3 px-4 "> <i class="fa-solid fa-user"></i> Profile</button>
+        </div>
+        <div class="boardCard   col-sm-2 col-3">
+             <button id="dailyReports"class="btn btn-secondary py-3 px-4"> <i class="fa-solid fa-calendar-days"></i>
+                Daily reports</button>
+        </div>
+        <div class="boardCard  col-3 col-sm-2 text-left">            
+            <button id="monthelyReports"class="btn btn-secondary py-3 px-4" ><i class="fa-regular fa-calendar"></i>Monthely reports</button>
+        </div>
+    </div>
+    <div id="display" class="table-responsive " >
+            <table id="tablee" class="table">
+            </table>
+            
+    </div>
+</div>   
+</body>
+</html>
